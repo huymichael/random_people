@@ -12,6 +12,8 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       body: Container(
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             CarouselSection(),
           ],
